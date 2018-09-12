@@ -1,4 +1,12 @@
+---
+
+---
+
 # Functional spec
+
+*Author*: Yassine Fikrat
+
+*Last updated* : 12 Sept. 2018
 
 ## Overview
 
@@ -8,7 +16,7 @@ Knowledge Chef is a knowledge database. The user writes *recipes* that can be ei
 
 * *Recipe* : Entry that is either a how-to, a bug fix or a workaround.
 
-* *Database* : Collection of recipes. Doesn't have to actually be a database, could very well be just a collection of files.
+* *Cookbook* : Collection of recipes. Doesn't have to actually be a database, could very well be just a collection of files.
 
 ## Scenarios
 
@@ -44,6 +52,106 @@ As of writing of this document, this app is not scheduled to support the followi
 
 ## Screens
 
+### Home screen
+
+This screen contains :
+
+* An invitation to create a recipe
+
+* A list of recipes from the cookbook
+
+* A search bar [focused element]
+
+* A way to access the cookbook folder in the system
+
+* A way to change the folder from wich to import the cookbook
+
+### Edit recipe screen
+
+Ava just clicked *"New"* and then *"Workaround"*. She got teleported here. She should see :
+
+* An input for a recipe title starting with "Workaround for ..." [focused element]
+
+* A rich text editor with maybe the start of a list of steps
+
+* A save button
+
+* A cancel button
+
+* A back to home button
+
+Django just clicked *"Edit"* on one of his recipes. He got beamed up here. He should see :
+
+* Everything Ava saw but prefilled with the recipe's data
+
 ## Open questions
 
 ## Roadmap
+
+- [x] Write the spec
+
+- [ ] Design the screens
+
+- [ ] Choose a framework and build the components
+
+- [ ] Build the home page
+
+- [ ] Build the edit page
+
+- [ ] Add features
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
