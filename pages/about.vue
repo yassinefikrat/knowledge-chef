@@ -11,10 +11,12 @@
 
 <script>
 import ChuccButton from '@bit/yassinefikrat.buds-ui.chucc-button'
+import ChuccSearchBar from '@bit/yassinefikrat.buds-ui.chucc-search-bar';
 
 export default {
   components: {
-    ChuccButton
+    ChuccButton,
+    ChuccSearchBar,
   },
   methods: {
     processClickOnNew: function() {

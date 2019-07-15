@@ -1,9 +1,11 @@
 <template>
-  <h1>Static Nuxt Example on Now 2.0</h1>
+  <h1>Knowledge Chef</h1>
 </template>
 
 <style>
 h1 {
-  font-size: 48px;
+  font-size: 42px;
+  color: #9D8189;
+  margin: 20px 20px 20px 20px;
 }
 </style>

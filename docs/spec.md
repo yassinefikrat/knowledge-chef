@@ -90,9 +90,9 @@ Django just clicked *"Edit"* on one of his recipes. He got beamed up here. He sh
 
 - [x] Write the spec
 
-- [ ] Design the screens
+- [x] Design the screens
 
-- [ ] Choose a framework and build the components
+- [x] Choose a framework and build the components
 
 - [ ] Build the home page
 
