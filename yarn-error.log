@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn global add now
+
+PATH: 
+  /home/yassine/.yarn/bin:/home/yassine/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.15.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/yassine/Documents/dev/knowledge-chef/package.json: Unexpected token } in JSON at position 258
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+      "name": "knowledge-chef",
+      "version": "0.1.0",
+      "private": true,
+      "scripts": {
+          "dev": "nuxt",
+          "build": "nuxt build",
+          "start": "nuxt start",
+          "generate": "nuxt generate",
+          "now-build": "nuxt generate",
+      },
+      "dependencies": {
+          "cross-env": "^5.2.0",
+          "nuxt": "^2.0.0"
+      },
+      "devDependencies": {
+          "nodemon": "^1.11.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
